@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    background-color: #FFFCF2;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.title-header {
+    font-family: 'Staatliches', cursive;
+    font-size: 300%;
+    color: #fdf7e3;
+}
+
+.nav-link {
+    color: #fdf7e3;
+}
+
+.img-main img {
+    object-fit: cover;
+    object-position: 0 10%;
+    width: 100%;
+    height: 320px;
+}
+
+.products-main {
+    justify-content: space-around;
+    margin: 1em 0;
+    display: flex;
+}
+
+footer {
+    background-color: #ccc5b9;
+}
